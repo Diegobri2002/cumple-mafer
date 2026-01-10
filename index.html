@@ -116,7 +116,7 @@
                     
                 </p>
                 <div class="flex justify-center lg:justify-start gap-4">
-                    <a href="#detalles" class="border border-wine text-wine px-8 py-3 rounded-full hover:bg-wine hover:text-white transition duration-300">Ver Detalles</a>
+                    <a href="#detalles" class="px-6 py-2 bg-rose text-white rounded-full hover:bg-wine transition duration-300 shadow-lg transform hover:-translate-y-1">Ver detalles</a>
                 </div>
             </div>
         </div>
@@ -133,15 +133,15 @@
     <section id="detalles" class="py-20 bg-white relative">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-script text-wine mb-2">Detalles del Evento</h2>
-                <div class="h-1 w-20 bg-gold mx-auto rounded-full"></div>
+                <h2 class="text-4xl font-script text-wine mb-2">Detalles del evento</h2>
+                
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
                 <!-- Column 1: Info -->
                 <div class="bg-cream p-8 rounded-2xl shadow-lg border border-pale text-center transform hover:-translate-y-2 transition duration-300">
-                    <div class="w-16 h-16 bg-pale rounded-full flex items-center justify-center mx-auto mb-6 text-wine text-2xl">
+                    <div class="w-16 h-16 flex items-center justify-center mx-auto text-wine text-2xl">
                         <i class="far fa-calendar-alt"></i>
                     </div>
                     <h3 class="text-2xl font-script text-wine mb-4">¿Cuándo?</h3>
@@ -150,7 +150,7 @@
                     
                     <div class="w-full h-px bg-rose/30 my-4"></div>
                     
-                    <div class="w-16 h-16 bg-pale rounded-full flex items-center justify-center mx-auto mb-6 text-wine text-2xl mt-6">
+                    <div class="w-16 h-16 flex items-center justify-center mx-auto text-wine text-2xl mt-6">
                         <i class="fas fa-tshirt"></i>
                     </div>
                     <h3 class="text-2xl font-script text-wine mb-2">¿Y qué me pongo?</h3>
@@ -160,16 +160,17 @@
 
                 <!-- Column 2: Location & Map -->
                 <div class="bg-cream p-4 rounded-2xl shadow-lg border border-pale text-center flex flex-col h-full transform hover:-translate-y-2 transition duration-300 items-center">
-                    <div class="mb-4 pt-4">
-                        <i class="fas fa-map-marker-alt text-wine text-3xl mb-2"></i>
-                        <h3 class="text-2xl font-script text-wine mb-4">¿Dónde?</h3>
-                        <p class="text-gray-600 px-4">Jardín Uxmal 956</p>
-                        <p class="text-sm text-gold mt-2">Uxmal 956, entre Emiliano Zapata y Prol. Repúblicas, Sta Cruz Atoyac, Benito Juárez, 03310 Ciudad de México, CDMX</p>
+                    <div class="w-16 h-16 flex items-center justify-center mx-auto text-wine text-2xl">
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
+                        <h3 class="text-2xl font-script text-wine mb-4">¿Dónde?</h3>
+                        <p class="text-lg font-semibold text-gray-800">Jardín Uxmal 956</p>
+                        <p class="text-sm text-black mt-2">Uxmal 956, entre Emiliano Zapata y Prol. Repúblicas, Sta Cruz Atoyac, Benito Juárez, 03310 Ciudad de México, CDMX</p>
+                    <br>
                     <!-- Google Maps Embed -->
                     <div class="flex-grow w-full h-64 md:h-full rounded-xl overflow-hidden border-2 border-white shadow-inner">
                         <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.53123456789!2d-99.123456789!3d19.432607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI1JzU3LjQiTiA5OcKwMDcnMTIuMyJX!5e0!3m2!1ses!2smx!4v1620000000000!5m2!1ses!2smx" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.052426394427!2d-99.1593252!3d19.3668825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff9fb6383243%3A0x5b0c1adfc55f671a!2sJardin%20de%20Eventos%20Uxmal%20956%20Del%20Valle!5e0!3m2!1ses!2smx!4v1768026219819!5m2!1ses!2smx" 
                             width="100%" 
                             height="100%" 
                             style="border:0;" 
@@ -183,7 +184,7 @@
 
                 <!-- Column 3: What's included -->
                 <div class="bg-cream p-8 rounded-2xl shadow-lg border border-pale text-center transform hover:-translate-y-2 transition duration-300">
-                    <div class="w-16 h-16 bg-pale rounded-full flex items-center justify-center mx-auto mb-6 text-wine text-2xl">
+                    <div class="w-16 h-16 flex items-center justify-center mx-auto text-wine text-2xl">
                         <i class="fas fa-glass-cheers"></i>
                     </div>
                     <h3 class="text-2xl font-script text-wine mb-4">¿Qué habrá?</h3>
@@ -192,7 +193,7 @@
                             <i class="fas fa-utensils text-gold"></i> Taquiza
                         </li>
                         <li class="flex items-center gap-3">
-                            <i class="fas fa-cocktail text-gold"></i> Barra Libre
+                            <i class="fas fa-cocktail text-gold"></i> Barra libre
                         </li>
                         <li class="flex items-center gap-3">
                             <i class="fas fa-solid fa-beer-mug-empty text-gold"></i> Micheladas
@@ -295,7 +296,7 @@
                     <div class="space-y-6">
                         <div>
                             <h3 class="text-3xl font-script text-wine mb-4">Lugar y hora</h3>
-                            <p class="text-gray-800 font-medium italic">Jardín Uxmal 956</p>
+                            <p class="text-gray-800 font-medium">Jardín Uxmal 956</p>
                             <p class="text-gray-600 text-sm">Sábado 17 de Enero, 2026</p>
                             <p class="text-gray-600 text-sm">19:30 pm a 1:30 am</p>
                             <br>
