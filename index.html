@@ -25,7 +25,7 @@
             theme: {
                 extend: {
                     colors: {
-                        wine: '#E7AA8D',
+                        wine: '#dac590',
                         rose: '#E2BEBD',
                         terracotta: '#DCC2B4',
                         gold: '#DAC590',
@@ -51,15 +51,14 @@
     <header id="navbar" class="fixed w-full top-0 z-50 transition-all duration-300 py-4 bg-transparent">
         <div class="container mx-auto px-6 flex justify-between items-center">
             <!-- Logo / Brand -->
-            <a href="#" class="text-3xl font-script text-wine drop-shadow-sm z-50 relative">Mafer's 40th</a>
+            <a href="#" class="text-3xl font-script text-wine drop-shadow-sm z-50 relative">Mafer Fest 40</a>
 
             <!-- Desktop Menu -->
             <nav class="hidden md:flex space-x-8 items-center">
                 <a href="#inicio" class="text-wine hover:text-gold font-medium transition duration-300">Inicio</a>
                 <a href="#detalles" class="text-wine hover:text-gold font-medium transition duration-300">Detalles</a>
-                <a href="#historia" class="text-wine hover:text-gold font-medium transition duration-300">Mi Historia</a>
                 <a href="#regalos" class="text-wine hover:text-gold font-medium transition duration-300">Regalos</a>
-                <a href="#rsvp" class="px-6 py-2 bg-rose text-white rounded-full hover:bg-wine transition duration-300 shadow-lg transform hover:-translate-y-1">Confirmar</a>
+                <a href="#rsvp" class="px-6 py-2 bg-rose text-white rounded-full hover:bg-wine transition duration-300 shadow-lg transform hover:-translate-y-1">Contacto</a>
             </nav>
 
             <!-- Mobile Hamburger -->
@@ -72,9 +71,8 @@
         <div id="mobile-menu" class="fixed inset-0 bg-white/95 backdrop-blur-md z-40 flex flex-col justify-center items-center space-y-8 h-screen w-screen md:hidden">
             <a href="#inicio" class="mobile-link text-2xl font-script text-wine">Inicio</a>
             <a href="#detalles" class="mobile-link text-2xl font-script text-wine">Detalles</a>
-            <a href="#historia" class="mobile-link text-2xl font-script text-wine">Mi Historia</a>
             <a href="#regalos" class="mobile-link text-2xl font-script text-wine">Regalos</a>
-            <a href="#rsvp" class="mobile-link px-8 py-3 bg-rose text-white rounded-full text-xl shadow-md">Confirmar Asistencia</a>
+            <a href="#rsvp" class="mobile-link px-8 py-3 bg-rose text-white rounded-full text-xl shadow-md">Contacto</a>
         </div>
     </header>
 
@@ -91,32 +89,26 @@
                 <div class="relative w-72 h-96 md:w-96 md:h-[500px]">
                     <!-- Main Image Frame -->
                     <div class="absolute inset-0 border-4 border-gold rounded-tl-[100px] rounded-br-[100px] z-10 transform rotate-3"></div>
-                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mafer Celebrando" class="absolute inset-0 w-full h-full object-cover rounded-tl-[100px] rounded-br-[100px] shadow-2xl z-20">
+                    <img src="assets/Fer_1.jpeg" alt="Mafer Celebrando" class="absolute inset-0 w-full h-full object-cover rounded-tl-[100px] rounded-br-[100px] shadow-2xl z-20">
                     
                     <!-- Balloon Decors (CSS Shapes) -->
                     <div class="balloon absolute -top-10 -left-10 w-24 h-32 bg-rose rounded-[50%] opacity-80 z-0"></div>
                     <div class="balloon absolute top-20 -right-12 w-20 h-28 bg-wine rounded-[50%] opacity-70 z-30"></div>
                     <div class="balloon absolute -bottom-5 -left-8 w-28 h-36 bg-gold rounded-[50%] opacity-60 z-30"></div>
                     
-                    <!-- Floating Number 40 -->
-                    <div class="absolute bottom-10 -right-4 bg-white/90 backdrop-blur px-6 py-4 rounded-lg shadow-xl z-40 border-l-4 border-wine">
-                        <span class="block text-5xl font-script text-wine font-bold">40</span>
-                        <span class="text-sm tracking-widest uppercase text-terracotta font-semibold">Fabulous Years</span>
-                    </div>
+                    
                 </div>
             </div>
 
             <!-- Right: Text Content -->
             <div class="order-1 lg:order-2 text-center lg:text-left z-10">
-                <span class="text-terracotta tracking-[0.2em] uppercase text-sm font-semibold mb-2 block">Save the Date</span>
                 <h1 class="text-5xl md:text-7xl font-script text-wine mb-6 leading-tight">
                     ¡Vamos a celebrar <br> <span class="text-rose">mis 40's!</span>
                 </h1>
                 <p class="text-gray-600 text-lg md:text-xl leading-relaxed mb-8 max-w-lg mx-auto lg:mx-0 font-light">
-                    Dicen que la vida comienza a los 40, así que acompáñame a dar inicio a esta nueva etapa llena de magia, risas y gratitud. No sería lo mismo sin ti.
+                    
                 </p>
                 <div class="flex justify-center lg:justify-start gap-4">
-                    <a href="#rsvp" class="bg-wine text-white px-8 py-3 rounded-full hover:bg-rose transition duration-300 shadow-lg">Asistiré</a>
                     <a href="#detalles" class="border border-wine text-wine px-8 py-3 rounded-full hover:bg-wine hover:text-white transition duration-300">Ver Detalles</a>
                 </div>
             </div>
@@ -155,7 +147,7 @@
                         <i class="fas fa-tshirt"></i>
                     </div>
                     <h3 class="text-2xl font-script text-wine mb-2">Dress Code</h3>
-                    <p class="text-gray-600">¡Vístete de fiesta, pero no faltes!</p>
+                    <p class="text-gray-600">Semiformal</p>
 
                 </div>
 
@@ -163,9 +155,9 @@
                 <div class="bg-cream p-4 rounded-2xl shadow-lg border border-pale text-center flex flex-col h-full transform hover:-translate-y-2 transition duration-300">
                     <div class="mb-4 pt-4">
                         <i class="fas fa-map-marker-alt text-wine text-3xl mb-2"></i>
-                        <h3 class="text-2xl font-script text-wine">¿Dónde?</h3>
-                        <p class="text-gray-600 px-4">Jardín Uxmal</p>
-                        <p class="text-sm text-gold mt-2">Uxmal 956, Sta Cruz Atoyac, Benito Juárez, 03310 Ciudad de México, CDMX</p>
+                        <h3 class="text-2xl font-script text-wine mb-4">¿Dónde?</h3>
+                        <p class="text-gray-600 px-4">Jardín Uxmal 956</p>
+                        <p class="text-sm text-gold mt-2">Uxmal 956, entre Emiliano Zapata y Prol. Repúblicas, Sta Cruz Atoyac, Benito Juárez, 03310 Ciudad de México, CDMX</p>
                     </div>
                     <!-- Google Maps Embed -->
                     <div class="flex-grow w-full h-64 md:h-full rounded-xl overflow-hidden border-2 border-white shadow-inner">
@@ -204,9 +196,6 @@
                             <i class="fas fa-music text-gold"></i> Baile
                         </li>
                         <li class="flex items-center gap-3">
-                            <i class="fas fa-ice-cream text-gold"></i> Helados
-                        </li>
-                        <li class="flex items-center gap-3">
                             <i class="fas fa-birthday-cake text-gold"></i> Pastel
                         </li>
                     </ul>
@@ -222,12 +211,12 @@
                 <!-- Left: Long Text -->
                 <div class="w-full md:w-1/2 relative">
                     <i class="fas fa-quote-left text-6xl text-rose/80 absolute -top-8 -left-4"></i>
-                    <h2 class="text-4xl font-script text-wine mb-6">Cuatro décadas de gratitud</h2>
+                    <h2 class="text-4xl font-script text-wine mb-6">Señora de las cuatro décadas...</h2>
                     <p class="text-gray-700 leading-8 text-lg mb-6 font-light">
-                        Llegar a los 40 no es solo sumar un año más, es celebrar cada lección aprendida, cada amistad forjada y cada sueño cumplido. He tenido la fortuna de rodearme de personas maravillosas como tú, que han hecho de mi vida un viaje extraordinario.
+                        Llegar a los 40 no es solo sumar un año más, es celebrar cada lección aprendida, cada amistad forjada y cada sueño cumplido. He tenido la fortuna de rodearme de personas maravillosas como tú, que han hecho de mi vida un baile inolvidable.
                     </p>
                     <p class="text-gray-700 leading-8 text-lg font-light">
-                        Esta fiesta no es solo por mi cumpleaños, es mi forma de agradecerles por estar siempre ahí, en las buenas y en las no tan buenas. Quiero que bailemos, riamos y brindemos por todo lo que viene. ¡Tu energía y cariño son imprescindibles para esta noche mágica!
+                        Esta fiesta no es sólo por mi cumpleaños, es mi forma de agradecerles por estar siempre ahí, en las buenas y en las no tan buenas. Quiero que bailemos, riamos y brindemos por todo lo que viene. ¡Tu presencia y entusiasmo son imprescindibles para esta noche mágica!
                     </p>
                     <div class="mt-8 font-script text-3xl text-wine text-right">- Mafer</div>
                 </div>
@@ -238,7 +227,7 @@
                     <div class="absolute w-[400px] h-[400px] bg-wine/10 rounded-full blur-2xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10"></div>
                     
                     <div class="relative w-80 h-96">
-                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mafer Retrato" class="w-full h-full object-cover blob-shape shadow-2xl border-4 border-white">
+                        <img src="assets/Fer_2.jpeg" alt="Mafer Retrato" class="w-full h-full object-cover blob-shape shadow-2xl border-4 border-white">
                         
                         <!-- Decorative leaf/element -->
                         <div class="absolute -bottom-6 -right-6 text-gold text-6xl opacity-50 rotate-12">
@@ -250,79 +239,6 @@
         </div>
     </section>
 
-    <!-- Carousel: Life Stages -->
-    <section id="historia" class="py-20 bg-white">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-12">
-                <span class="text-rose uppercase tracking-widest text-sm font-bold">Timeline</span>
-                <h2 class="text-4xl font-script text-wine mt-2">Momentos Inolvidables</h2>
-            </div>
-
-            <!-- Carousel Wrapper -->
-            <div class="relative max-w-5xl mx-auto">
-                <!-- Controls -->
-                <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 z-20 w-12 h-12 rounded-full bg-white shadow-md text-wine hover:bg-wine hover:text-white flex items-center justify-center transition">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 z-20 w-12 h-12 rounded-full bg-white shadow-md text-wine hover:bg-wine hover:text-white flex items-center justify-center transition">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-
-                <!-- Scroll Area -->
-                <div id="carousel" class="carousel-container flex gap-6 overflow-x-auto pb-8 snap-x">
-                    
-                    <!-- Card 1: Childhood -->
-                    <div class="carousel-item flex-shrink-0 w-80 snap-center">
-                        <div class="bg-cream rounded-xl shadow-lg overflow-hidden border border-pale h-full">
-                            <img src="https://images.unsplash.com/photo-1596464716127-f9a08182cb35?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500">
-                            <div class="p-6 text-center">
-                                <span class="bg-gold/20 text-wine px-3 py-1 rounded-full text-xs font-bold">1980's</span>
-                                <h3 class="font-script text-xl mt-3 mb-2">La Infancia</h3>
-                                <p class="text-sm text-gray-500">Donde todo comenzó. Risas, juegos y sueños grandes.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 2: Teens -->
-                    <div class="carousel-item flex-shrink-0 w-80 snap-center">
-                        <div class="bg-cream rounded-xl shadow-lg overflow-hidden border border-pale h-full">
-                            <img src="https://images.unsplash.com/photo-1515286576856-11b0bb753965?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500">
-                            <div class="p-6 text-center">
-                                <span class="bg-gold/20 text-wine px-3 py-1 rounded-full text-xs font-bold">1990's</span>
-                                <h3 class="font-script text-xl mt-3 mb-2">Juventud Divina</h3>
-                                <p class="text-sm text-gray-500">Amistades eternas y descubriendo el mundo.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 3: 20s -->
-                    <div class="carousel-item flex-shrink-0 w-80 snap-center">
-                        <div class="bg-cream rounded-xl shadow-lg overflow-hidden border border-pale h-full">
-                            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500">
-                            <div class="p-6 text-center">
-                                <span class="bg-gold/20 text-wine px-3 py-1 rounded-full text-xs font-bold">2000's</span>
-                                <h3 class="font-script text-xl mt-3 mb-2">Viajes y Metas</h3>
-                                <p class="text-sm text-gray-500">Construyendo camino y explorando horizontes.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 4: Now -->
-                    <div class="carousel-item flex-shrink-0 w-80 snap-center">
-                        <div class="bg-cream rounded-xl shadow-lg overflow-hidden border border-pale h-full">
-                            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500">
-                            <div class="p-6 text-center">
-                                <span class="bg-gold/20 text-wine px-3 py-1 rounded-full text-xs font-bold">2020's</span>
-                                <h3 class="font-script text-xl mt-3 mb-2">¡Felices 40!</h3>
-                                <p class="text-sm text-gray-500">La mejor versión de mí misma. Plenitud total.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Gifts Section -->
     <section id="regalos" class="py-20 bg-pale text-black relative overflow-hidden">
@@ -331,111 +247,99 @@
         
         <div class="container mx-auto px-6 text-center relative z-10">
             <i class="fas fa-gift text-6xl mb-6 text-gold animate-bounce"></i>
-            <h2 class="text-4xl md:text-5xl font-script mb-6">Mesa de Regalos</h2>
+            <h2 class="text-4xl md:text-5xl font-script mb-6">¿Regalos?</h2>
             <div class="max-w-2xl mx-auto space-y-6">
                 <p class="text-xl font-light leading-relaxed">
-                    El mejor regalo es contar con tu presencia, tus risas y tu cariño en este día tan especial.
+                    Se aceptan todo tipo de presentes: abrazos, regalos, flores, chocolates, tarjetas de felicitación con un lindo mensaje, invitaciones al cine, por un helado, un café, a comer...
+                    Pero el mejor regalo es contar con tu presencia, tus risas y tu cariño en este día tan especial.
                 </p>
-                <p class="text-rose-200 text-sm">
-                    Sin embargo, si deseas tener un detalle conmigo, he preparado una lista de deseos con cosas que me harían mucha ilusión.
-                </p>
-                <div class="pt-6">
-                    <a href="#" class="inline-block bg-white text-wine px-10 py-4 rounded-full font-bold shadow-lg hover:bg-gold hover:text-white transition duration-300 transform hover:scale-105">
-                        Ver Wishlist en Amazon
-                    </a>
-                </div>
+                <p class="text-xl font-light leading-relaxed"> P.D. Encontrar el regalo ideal es difícil. Te paso un tip: en Walmart, OXXOs y otras tiendas venden tarjetas de regalo de Amazon (yo compro muuuuucho en Amazon)</p>
             </div>
         </div>
     </section>
 
-    <!-- RSVP Section -->
-    <section id="rsvp" class="py-20 bg-pale/30">
+    <!-- RSVP Section Re-Diseñada -->
+    <section id="rsvp" class="py-24 bg-pale/50">
         <div class="container mx-auto px-6">
-            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-script text-wine">¡Nos vemos muy pronto!</h2>
+            
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
                 
-                <!-- Left: Thank You & Reminder -->
-                <div class="w-full md:w-5/12 bg-white p-10 text-black flex flex-col justify-center relative overflow-hidden">
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-wine rounded-full -mr-16 -mt-16 opacity-30"></div>
-                    <div class="absolute bottom-0 left-0 w-24 h-24 bg-gold rounded-full -ml-12 -mb-12 opacity-30"></div>
-                    
-                    <h3 class="text-4xl font-script mb-6">¡Gracias!</h3>
-                    <p class="mb-8 font-light text-rose-100">
-                        Estoy contando los días para celebrar juntos. Por favor confirma tu asistencia antes del 1 de Octubre para organizar todo perfectamente.
+                <!-- Columna 1: Gratitud -->
+                <div class="bg-white p-10 rounded-3xl shadow-xl border-t-4 border-rose flex flex-col justify-center text-center">
+                    <div class="text-rose text-5xl mb-4">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="text-3xl font-script text-wine mb-4">¡Gracias!</h3>
+                    <p class="text-gray-600 font-light leading-relaxed">
+                        Estoy contando los días para celebrar juntos este momento tan especial. Tu presencia es el mejor regalo que puedo recibir.
                     </p>
-                    
-                    <div class="space-y-4 border-t border-white/20 pt-6">
-                        <div class="flex items-center gap-4">
-                            <i class="far fa-clock text-gold text-xl"></i>
-                            <div>
-                                <span class="block text-xs uppercase opacity-70">Hora</span>
-                                <span class="font-medium">20:00 hrs</span>
-                            </div>
+                </div>
+
+                <!-- Columna 2: Logística y Vestimenta -->
+                <div class="bg-white p-10 rounded-3xl shadow-xl border-t-4 border-gold text-center">
+                    <div class="text-gold text-5xl mb-6">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="space-y-6">
+                        <div>
+                            <h4 class="font-semibold uppercase tracking-widest text-xs text-terracotta mb-2">¿Dónde y Cuándo?</h4>
+                            <p class="text-gray-800 font-medium italic">Jardín Uxmal 956</p>
+                            <p class="text-gray-600 text-sm">Sábado 17 de Enero, 2026</p>
+                            <p class="text-gray-600 text-sm">19:30 pm a 1:30 am</p>
+                            <a href="https://maps.app.goo.gl/A5nERgVhaefCZ2dc6" target="_blank" class="mt-4 text-rose font-medium hover:underline text-sm pb-2">Ver ubicación exacta</a>
                         </div>
-                        <div class="flex items-center gap-4">
-                            <i class="fas fa-map-marker-alt text-gold text-xl"></i>
-                            <div>
-                                <span class="block text-xs uppercase opacity-70">Lugar</span>
-                                <span class="font-medium">Jardín Las Bugambilias</span>
-                            </div>
+                        <div class="pt-4 border-t border-pale">
+                            <h4 class="font-semibold uppercase tracking-widest text-xs text-terracotta mb-2">Vestimenta</h4>
+                            <p class="text-gray-800 font-medium">Semiformal</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Right: Form -->
-                <div class="w-full md:w-7/12 p-10 bg-white">
-                    <h3 class="text-3xl font-script text-wine mb-6 text-center md:text-left">Confirma tu Asistencia</h3>
+                <!-- Columna 3: Contacto WhatsApp -->
+                <div class="bg-white p-10 rounded-3xl shadow-xl border-t-4 border-wine text-center">
+                    <div class="text-green-500 text-5xl mb-6">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3 class="text-2xl font-script text-wine mb-4">Contacto</h3>
+                    <p class="text-gray-500 text-sm mb-6">Dale click y mándame un Whatsapp:</p>
                     
-                    <form id="rsvpForm" class="space-y-5" onsubmit="event.preventDefault(); alert('¡Gracias por confirmar! Nos vemos en la fiesta.');">
-                        
-                        <!-- Name -->
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-1">Nombre Completo</label>
-                            <input type="text" required class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-rose focus:ring-2 focus:ring-rose/20 outline-none transition bg-gray-50" placeholder="Escribe tu nombre">
-                        </div>
-
-                        <!-- Contact Grid -->
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Correo Electrónico</label>
-                                <input type="email" required class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-rose focus:ring-2 focus:ring-rose/20 outline-none transition bg-gray-50" placeholder="tucorreo@ejemplo.com">
+                    <div class="space-y-4">
+                        <!-- Botón Mafer -->
+                        <a href="https://wa.me/525518491308?text=Hola%20Mafer!" 
+                           target="_blank" 
+                           class="flex items-center justify-between p-4 bg-green-50 hover:bg-green-100 rounded-2xl border border-green-200 transition group">
+                            <div class="text-left">
+                                <span class="block font-bold text-green-800">Mafer</span>
+                                <span class="text-xs text-green-600">55 1849 1308</span>
                             </div>
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Teléfono Celular</label>
-                                <input type="tel" required class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-rose focus:ring-2 focus:ring-rose/20 outline-none transition bg-gray-50" placeholder="(55) 0000 0000">
+                            <i class="fas fa-chevron-right text-green-400 group-hover:translate-x-1 transition"></i>
+                        </a>
+
+                        <!-- Botón Diego -->
+                        <a href="https://wa.me/525617809030?text=Hola%20Diego!" 
+                           target="_blank" 
+                           class="flex items-center justify-between p-4 bg-green-50 hover:bg-green-100 rounded-2xl border border-green-200 transition group">
+                            <div class="text-left">
+                                <span class="block font-bold text-green-800">Diego</span>
+                                <span class="text-xs text-green-600">56 1780 9030</span>
                             </div>
-                        </div>
-
-                        <!-- Guests Dropdown -->
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-1">Invitados Adicionales</label>
-                            <select id="guestCount" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-rose focus:ring-2 focus:ring-rose/20 outline-none transition bg-gray-50 cursor-pointer">
-                                <option value="0">Solo yo (Ninguno)</option>
-                                <option value="1">Más uno (+1)</option>
-                            </select>
-                        </div>
-
-                        <!-- Plus One Name (Hidden by default) -->
-                        <div id="plusOneField" class="hidden animate-fade-in-down">
-                            <label class="block text-sm font-medium text-gray-700 mb-1">Nombre de tu acompañante</label>
-                            <input type="text" id="plusOneName" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-rose focus:ring-2 focus:ring-rose/20 outline-none transition bg-gray-50" placeholder="Nombre del acompañante">
-                        </div>
-
-                        <!-- Submit Button -->
-                        <div class="pt-4">
-                            <button type="submit" class="w-full bg-wine text-white font-bold py-4 rounded-lg shadow-lg hover:bg-rose transition duration-300 transform hover:-translate-y-1">
-                                Enviar Confirmación
-                            </button>
-                        </div>
-                    </form>
+                            <i class="fas fa-chevron-right text-green-400 group-hover:translate-x-1 transition"></i>
+                        </a>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-wine text-white py-8 text-center">
-        <p class="font-script text-2xl mb-2">Mafer's 40th Birthday</p>
-        <p class="text-xs text-rose-200 opacity-60">© 2023 - Designed with love</p>
+        <p class="font-script text-2xl mb-2">Mafer Fest 40</p>
+        <p class="text-xs text-rose-200 opacity-60">© 2023 - Designed with love ❤ by <a href="">Alternatif D-Sign</a></p>
     </footer>
 
     <!-- JavaScript Scripts -->
